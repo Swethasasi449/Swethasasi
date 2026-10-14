@@ -9,11 +9,15 @@ System.out.println("AfterClass");
 	private void Rani() {
 System.out.println("Emp Name:I am Rani");
 	}
-	
+	 private void Hari() {
+		 System.out.println("Emp Name:I am Hari");
+
+	}
 	public static void main(String[] args) {
 		Sample s = new Sample();
 		s.afte();
 		s.Rani();
+		s.Hari();
 	}
 
 }
