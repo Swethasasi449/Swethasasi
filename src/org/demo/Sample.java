@@ -6,14 +6,14 @@ public class Sample {
 System.out.println("AfterClass");
 
 	}
-	private void Hari() {
-System.out.println("Emp Name:I am Hari");
+	private void Rani() {
+System.out.println("Emp Name:I am Rani");
 	}
 	
 	public static void main(String[] args) {
 		Sample s = new Sample();
 		s.afte();
-		s.Hari();
+		s.Rani();
 	}
 
 }
